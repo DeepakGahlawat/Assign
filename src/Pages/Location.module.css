@@ -1,0 +1,44 @@
+/* Location.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .subheading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .picklocation {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 calc(50% - 20px);
+    }
+  }
+  

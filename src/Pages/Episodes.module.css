@@ -1,0 +1,61 @@
+/* Episodes.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .episodeDetails {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .form{
+    text-align: center;
+  }
+  
+  
+  
+  .episodeDetails h5 {
+    font-size: 1rem;
+    margin: 0;
+    
+  }
+  
+  .pickEpisode {
+    margin-bottom: 20px;
+  }
+
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .episodeDetails {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .episodeDetails h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  
+    .episodeDetails h5 {
+      font-size: 0.8rem;
+    }
+  }
+  

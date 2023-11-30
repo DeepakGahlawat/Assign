@@ -1,0 +1,53 @@
+/* Apply some basic styling to the filter container */
+.container{
+    display: flex;
+    justify-content: center
+}
+
+.div {
+    margin: 10px 0;
+    padding: 5px;
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Style the labels to display inline */
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the select dropdowns */
+  .select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the Clear Filter button */
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  /* Change button color on hover */
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .flex_item{
+    flex:1;
+    padding: 0 5px;
+  }
+  

@@ -1,0 +1,10 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px ;
+    gap:70px;
+    margin:0 auto;
+    margin-block-start: 10px;
+}
+
+

@@ -1,0 +1,42 @@
+/* CardDetails.module.css */
+
+.full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardcontainer {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.cardcontainer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cardcontainer img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cardcontainer p {
+  margin: 5px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .cardcontainer {
+    padding: 15px;
+  }
+
+  .cardcontainer h1 {
+    font-size: 1.2rem;
+  }
+}
